@@ -1,0 +1,6 @@
+PROJECT (ace_internal_ch01)
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+
+SET (SOURCE_FILES aio_example.cpp)
+ADD_EXECUTABLE (aio_example ${SOURCE_FILES})
+TARGET_LINK_LIBRARIES (aio_example rt)
